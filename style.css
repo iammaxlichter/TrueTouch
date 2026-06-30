@@ -714,7 +714,30 @@ footer {
 }
 .footer-logo img {
   height: 50px;
+  width: auto;
+  object-fit: contain;
   filter: brightness(0) invert(1);
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+}
+.footer-logo-text span {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.60rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 .footer-tagline {
   font-family: 'Playfair Display', serif;
