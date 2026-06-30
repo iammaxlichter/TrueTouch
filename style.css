@@ -59,7 +59,7 @@ nav {
 .nav-logo img {
   height: 44px;
   width: auto;
-  filter: brightness(0) invert(1);
+  object-fit: contain;
 }
 .nav-logo-text {
   font-family: 'Playfair Display', serif;
